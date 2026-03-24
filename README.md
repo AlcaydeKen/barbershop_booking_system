@@ -74,11 +74,11 @@ Open XAMPP Control Panel and start:
 
 - Open phpMyAdmin
 - Create a new database
-- Import the ```bash db.sql``` file 📄
+- Import the ```db.sql``` file 📄
 
 5️⃣ Configure the database connection
 
-Open ```bash config.php``` and update the credentials if needed:
+Open ```config.php``` and update the credentials if needed:
 ```bash
 $host = "localhost";
 $user = "root";
