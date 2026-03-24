@@ -50,6 +50,7 @@ barbershop_booking_system/
 ```
 
 🚀 Installation Guide
+
 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/AlcaydeKen/barbershop_booking_system.git
