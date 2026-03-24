@@ -2,6 +2,18 @@
 
 Barbershop Booking System is a full-stack web application that lets customers book haircut and grooming appointments online. It also includes an **admin panel** for managing barbers, services, and appointments.
 
+## 🎯 Purpose
+
+This project was developed as a barbershop booking system to streamline appointments and showcase full-stack web development using PHP and MySQL. It demonstrates authentication, role-based access control, CRUD operations, and appointment management.
+
+## 🧠 What I Learned
+- Designing a booking workflow for users and admins  
+- Implementing time slot management for appointments  
+- CRUD operations for multiple entities: users, barbers, services, bookings  
+- Managing database relationships efficiently  
+- Creating a clean admin dashboard for managing appointments and services  
+- Debugging and testing PHP + MySQL apps locally with XAMPP
+
 ## ✨ Features
 
 ### 👤 User Side
@@ -49,35 +61,35 @@ barbershop_booking_system/
 └── README.md
 ```
 
-🚀 Installation Guide
+## 🚀 Installation Guide
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/AlcaydeKen/barbershop_booking_system.git
 cd barbershop_booking_system
 ```
 
-2️⃣ Move the project to your XAMPP htdocs folder
+### 2️⃣ Move the project to your XAMPP htdocs folder
 
 Example:
 ```bash
 C:\xampp\htdocs\barbershop_booking_system
 ```
 
-3️⃣ Start Apache and MySQL
+### 3️⃣ Start Apache and MySQL
 
 Open XAMPP Control Panel and start:
 
 - Apache ⚡
 - MySQL 🗄️
 
-4️⃣ Import the database
+### 4️⃣ Import the database
 
 - Open phpMyAdmin
 - Create a new database
 - Import the ```db.sql``` file 📄
 
-5️⃣ Configure the database connection
+### 5️⃣ Configure the database connection
 
 Open ```config.php``` and update the credentials if needed:
 ```bash
@@ -87,14 +99,14 @@ $password = "";
 $dbname = "barbershop_db";
 ```
 
-6️⃣ Run the project
+### 6️⃣ Run the project
 
 Open your browser and go to:
 ```bash
 http://localhost/barbershop_booking_system/
 ```
 
-🖥️ Screens / Main Pages
+## 🖥️ Screens / Main Pages
 
 - index.php – 🏠 Homepage
 - services.php – 💈 List of services
@@ -103,7 +115,7 @@ http://localhost/barbershop_booking_system/
 - profile.php – 👤 User profile
 - admin/ – 🛠️ Admin dashboard
 
-🗄️ Database
+## 🗄️ Database
 
 The database file is included in the project:
 ```bash
@@ -119,11 +131,8 @@ Import this file into MySQL using phpMyAdmin before running the project.
 - 📱 Mobile-friendly UI
 - 📊 Admin analytics dashboard
 
-🎯 Purpose
 
-This project was developed as a barbershop booking system to streamline appointments and showcase full-stack web development using PHP and MySQL. It demonstrates authentication, role-based access control, CRUD operations, and appointment management.
-
-👨‍💻 Author
+## 👨‍💻 Author
 
 Ken Jared Alcayde
 
