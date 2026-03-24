@@ -125,7 +125,6 @@ db.sql
 Import this file into MySQL using phpMyAdmin before running the project.
 
 ## 🔮 Future Improvements
-- 📆 Dynamic time slots per barber
 - 📨 Email or SMS notifications
 - 💳 Online payment integration
 - 📱 Mobile-friendly UI
